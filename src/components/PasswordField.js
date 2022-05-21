@@ -25,7 +25,7 @@ export default function PasswordField({ onChange, error, value, sx }) {
         endAdornment: (
           <InputAdornment position="end">
             <IconButton onClick={() => setShowPassword(!showPassword)}>
-              {showPassword ? <VisibilityOutlined /> : <VisibilityOffOutlined />}
+              {showPassword ? <VisibilityOffOutlined /> : <VisibilityOutlined />}
             </IconButton>
           </InputAdornment>
         )
